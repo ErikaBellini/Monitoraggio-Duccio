@@ -1,0 +1,6 @@
+install.packages("terra")
+library(terra)
+#Importing data (cambia gli slash che ti da windows!)
+setwd("C:/Users/LENOVO/Downloads")
+mato=rast("Matogrosso_l5_1992219_lrg.jpg")
+plot(mato)
